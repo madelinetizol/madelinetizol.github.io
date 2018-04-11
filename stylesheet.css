@@ -1,12 +1,17 @@
 
 body {
-  background-color: #9999cc;
+  background-color: #ccccff;
   font-family: Courier;
   font-size: 12px;
 }
 
 h1 {
   font-size: 24px; 
+}
+
+a {
+  color: black;
+  text-decoration: none; 
 }
 
 p {
@@ -16,26 +21,30 @@ p {
 #menu {
   position: fixed;
   display: block;
-  height: 100px;
-  width: 100px;
-  background-color: black;
+  right: 20px;
+  top: 20px;
+  z-index: 100;
 }
 
 .button {
-  font-size: 24px;
+  font-size: 30px;
   font-style: bold;
-  position: fixed;
   display: block;
-  /*height: ;
-  width: ;
-  background-color: ;
-  border-color: ;
-  border-radius: ;
-  border-width: ;
-*/
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  border-style: solid;
+  border-color: #9999cc;
+  border-width: 5px;
+
 }
 
 #tizolimg {
-  height: 200px;
+  height: 600px;
+  position: fixed;
+  bottom: 0px;
+  right: -50px;
+  z-index: 0;
 }
 
