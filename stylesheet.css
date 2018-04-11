@@ -13,11 +13,34 @@ p {
   font-size: 10px;
 }
 
+#menu {
+  position: fixed;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+.button {
+  font-size: 24px;
+  font-style: bold;
+  position: fixed;
+  display: block;
+  /*height: ;
+  width: ;
+  background-color: ;
+  border-color: ;
+  border-radius: ;
+  border-width: ;
+*/
+}
+
 .artimg {
   width: 100%;
 }
-
+/*
 #tizolimg {
   height: ;
   width: ;
 }
+*/
