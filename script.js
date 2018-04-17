@@ -1,3 +1,7 @@
+$('#tizol-bio').load("text/about.txt");
+$('#capstone-bio').load("text/capstone.txt");
+
+
 var app = angular.module('website', ['ngRoute']);
 app.config(['$routeProvider', function($routeProvider) {
   $routeProvider
@@ -17,3 +21,4 @@ app.config(['$routeProvider', function($routeProvider) {
 
 app.controller('main-controller', ['$scope', function($scope) {
 }]);
+
