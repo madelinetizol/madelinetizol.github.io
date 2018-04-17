@@ -11,7 +11,7 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'art.html'
     })
     .otherwise( {
-      redirectTo: '/about'
+      redirectTo: '/home'
     });
 }])
 
