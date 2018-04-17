@@ -32,6 +32,12 @@ p {
   text-align: right;
 }
 
+.text {
+  display: block;
+  width: 60%;
+  font-size: 20px;
+}
+
 .button {
   font-size: 30px;
   font-style: bold;
@@ -46,7 +52,7 @@ p {
 
 }
 
-#tizolimg {
+.tizolimg {
   height: 600px;
   position: fixed;
   bottom: 0px;

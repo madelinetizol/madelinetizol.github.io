@@ -32,6 +32,13 @@ p {
   text-align: right;
 }
 
+.text {
+  display: block;
+  font-size: 20px;
+  top: 500px;
+  width: 100%;
+}
+
 .button {
   font-size: 30px;
   font-style: bold;
