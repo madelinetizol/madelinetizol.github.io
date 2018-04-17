@@ -8,6 +8,9 @@ app.config(['$routeProvider', function($routeProvider) {
     .when('/capstone', {
       templateUrl: 'capstone.html'
     })
+    .when('/home', {
+      templateUrl: 'home.html'
+    })
     .when('/about', {
       templateUrl: 'about.html'
     })
