@@ -1,0 +1,19 @@
+var app = angular.module('website', ['ngRoute']);
+app.config(['$routeProvider', function($routeProvider) {
+  $routeProvider
+    .when('/capstone', {
+      templateUrl: 'capstone.html'
+    })
+    .when('/about', {
+      templateUrl: 'about.html'
+    })
+    .when('/art', {
+      templateUrl: 'art.html'
+    })
+    .otherwise( {
+      redirectTo: '/about'
+    });
+}])
+
+app.controller('main-controller', ['$scope', function($scope) {
+}]);
